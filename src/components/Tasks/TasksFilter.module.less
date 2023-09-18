@@ -1,0 +1,48 @@
+.filter-btn-wrapper, .choosen-filters-item, .choosen-filters  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.filter-wrapper {
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+    .filter-btn-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+
+        p:first-child, .dropdown {
+            margin-right: 10px;
+        }
+
+    }
+
+    .choosen-filters { 
+    
+        .choosen-filters-item {
+            margin:0 10px 5px 0;
+            border: 1px solid #d9d9d9;
+            border-radius: 8px;
+            padding: .5em .8em;
+            p {
+                font-size: 14px;
+                margin: 0;
+            }
+            .remove-filter-btn {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    
+}

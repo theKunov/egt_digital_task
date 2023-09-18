@@ -1,0 +1,25 @@
+.userlist-wrapper {
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.userlist-wrapper h1 {
+  text-align: center;
+}
+.userlist-wrapper .ant-collapse-panel {
+  background-color: white!important;
+}
+.userlist-wrapper .ant-collapse-panel:first-child {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.userlist-wrapper .ant-collapse-panel:last-child {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+@media screen and (max-width: 640px) {
+  .userlist-wrapper {
+    width: 100%;
+  }
+}

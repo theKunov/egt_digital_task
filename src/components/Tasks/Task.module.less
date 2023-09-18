@@ -1,0 +1,48 @@
+.task-wrapper {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    h1 {
+        text-align: center;
+    }
+
+    .task-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0.2em 0;
+    }
+
+    .task-user {
+        font-size: 12px;
+    }
+
+    .status-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        p:first-child {
+            margin-right: 10px;
+        }
+    }
+
+    .pagination-wrapper {
+        margin: 1em 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .status-list-item {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        .status-wrap {
+            width: 100%;
+        }
+    }
+}

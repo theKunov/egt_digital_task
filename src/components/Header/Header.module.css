@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #d9d9d9;
+}
+.header .item {
+  background-color: #1878FF;
+  border-radius: 5px;
+  padding: 0.3em 0.5em;
+  margin: 0 0.4em;
+  max-height: 25px;
+}
+.header .item .link {
+  color: white;
+  text-decoration: none;
+}

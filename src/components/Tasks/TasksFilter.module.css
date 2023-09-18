@@ -1,0 +1,37 @@
+.filter-btn-wrapper,
+.choosen-filters-item,
+.choosen-filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter-wrapper {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.filter-wrapper .filter-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter-wrapper .filter-btn-wrapper p:first-child,
+.filter-wrapper .filter-btn-wrapper .dropdown {
+  margin-right: 10px;
+}
+.filter-wrapper .choosen-filters .choosen-filters-item {
+  margin: 0 10px 5px 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 0.5em 0.8em;
+}
+.filter-wrapper .choosen-filters .choosen-filters-item p {
+  font-size: 14px;
+  margin: 0;
+}
+.filter-wrapper .choosen-filters .choosen-filters-item .remove-filter-btn {
+  margin-left: 10px;
+}
